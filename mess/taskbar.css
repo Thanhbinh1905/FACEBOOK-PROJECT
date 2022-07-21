@@ -1,0 +1,94 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #1c1e21;
+    color: white;
+}
+.taskbar
+{
+    width: 60px;
+    height: 100%;
+    background-color: #242526;
+    color: rgba(255, 255, 255, 0.9);
+    display: inherit;
+    border-right: 0.2px solid rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    position: fixed
+}
+.taskbar a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+.taskbar img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.taskbar a
+{
+    justify-content: center;
+    display: flex;
+}
+.tool1 a
+{
+    display: flex;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 15px 10px 0px 10px;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+.tool1 a:hover
+{
+    background-color: rgba(143, 131, 134,0.3);
+    border-radius: 8px;
+    color: white;
+}
+.tool2
+{
+    background-color: #3A3B3C;
+    margin: 20px 10px 0px 10px;
+    border-radius: 8px;
+}
+.tool2 i
+{
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 12px 9px;
+    width: 100%;
+    font-size: 18px;
+    margin: auto;
+    border-radius: 8px;
+    
+}
+.tool2 i:hover
+{
+    background-color: rgba(143, 131, 134,0.3);
+    border-radius: 8px;
+    color: white;
+}
+.content
+{
+    margin-left: 60px;
+}
+.hovertool
+{
+    background-color: #2e89ff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    height: 36px;
+    opacity: 1;
+    width: 4px;
+    left: 0;
+    transform-origin: top;
+    margin-top: 230px;
+}
