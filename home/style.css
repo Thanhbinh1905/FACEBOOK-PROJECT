@@ -95,7 +95,7 @@ body
     width: 4px;
     left: 0;
     transform-origin: top;
-    margin-top: 73px;
+    margin-top: 72px;
 }
 hr
 {
@@ -148,13 +148,13 @@ hr
     background:#2f3031;
 }
 
-.container .left-panel ul li  p
+.container .left-panel ul li > p
 {
     margin-left: 10px;
 	color:#FFFFFF;
 }
 
-.container .left-panel ul li  i
+.container .left-panel ul li > i
 {
     font-size:20px;
     color:white;
@@ -201,13 +201,12 @@ hr
     background:black;
 }
 
-.middle-panel .story-section .story  img
+.middle-panel .story-section .story > img
 {
     height:100%;
-    transition:.3s ease-in;
+    transition:.3s ease-in;	
 }
-
-.middle-panel .story-section .story:hover  img
+.middle-panel .story-section .story:hover > img
 {
     transform:scale(1.05);
 }
@@ -224,7 +223,7 @@ hr
     border:royalblue 4px solid; 
 }
 
-.middle-panel .story-section .story .dp-container  img
+.middle-panel .story-section .story .dp-container > img
 {
     width:100%;
     height:100%;
@@ -303,7 +302,7 @@ hr
     overflow:hidden;
 }
 
-.post .post-top .dp  img
+.post .post-top .dp > img
 {
     width:100%;
     cursor:pointer;
@@ -337,7 +336,7 @@ hr
 	color:#e6e6e6;
 }
 
-.post .post-top  input
+.post .post-top > input
 {
     height:40px;
     padding:5px 10px;
@@ -353,14 +352,22 @@ hr
 {
     font-size:16px;
     font-weight:normal;
-    padding:10px;
+    padding:5px 5px;
 	color:#FFFFFF;
 }
-
-.post .post-content  img
+.post .post-content a:hover
+{
+	
+}
+.post .post-content a
+{
+	color:#277cff;
+	text-decoration:none
+}
+.post .post-content img, .post-content video, .post-content iframe
 {
     width:100%;
-    margin:5px 0px;
+    margin:10px 0px;
 }
 
 .post .post-bottom
@@ -384,7 +391,7 @@ hr
     background:#3a3b3c;
 }
 
-.post.create .post-bottom  .action
+.post.create .post-bottom > .action
 {
     color:#b8bbbf;
 }
@@ -427,7 +434,7 @@ hr
 }
 
 
-.right-panel .friends-section .friend  .dp
+.right-panel .friends-section .friend > .dp
 {
     height:25px;
     width:25px;
@@ -435,7 +442,7 @@ hr
     overflow:hidden;
     cursor: pointer;
 }
-.right-panel .pages-section .page  .dp
+.right-panel .pages-section .page > .dp
 {
 	height:130px;
     width:130px;
@@ -444,11 +451,11 @@ hr
     cursor: pointer;
 }
 
-.right-panel .friends-section .friend  .dp  img
+.right-panel .friends-section .friend > .dp > img
 {
     width:100%;
 }
-.right-panel .pages-section .page  .dp  img
+.right-panel .pages-section .page > .dp > img
 {
 	width:130px;
 	height:130px;

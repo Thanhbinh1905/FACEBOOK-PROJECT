@@ -907,55 +907,11 @@ html {
 }
 
 .chatThree>.status {
-  background-color: aliceblue;
+  background-color: #44a675;
 }
 
 .chatThree>.status>.miniRound {
   background-color: #2b2b2f;
-}
-
-.chatFour>.status {
-  background-color: red;
-}
-
-.chatFour>.status>.miniRound {
-  background-color: #2a2a2a;
-}
-
-.chatFive>.status {
-  background-color: white;
-}
-
-.chatFive>.status>.miniRound {
-  background-color: #44a675;
-}
-
-.chatSix>.status {
-  background-color: #2a2a2a;
-}
-
-.chatSix>.status>.miniRound {
-  background-color: #383f44;
-}
-
-.chatSeven>.status {
-  background-color: #44a675;
-}
-
-.chatEight>.status {
-  background-color: #2a2a2a;
-}
-
-.chatEight>.status>.miniRound {
-  background-color: #383f44;
-}
-
-.chatNine>.status {
-  background-color: #2a2a2a;
-}
-
-.chatNine>.status>.miniRound {
-  background-color: yellow;
 }
 
 .timeToWrite {
@@ -964,6 +920,7 @@ html {
   overflow: hidden;
   bottom: 0;
   background-color: #2a2a2a;
+  margin-right: 0px;
 }
 
 .welcome {
@@ -1091,15 +1048,10 @@ html {
   user-select: text;
 }
 
+
 .startCoversation {
-  width: 176px;
-  height: 37px;
-  border: 1px solid #665dfe;
-  border-radius: 00.325rem;
+  border: 1px none;
   background: none;
-  color: #665dfe;
-  margin-left: 275px;
-  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -1121,7 +1073,6 @@ html {
 }
 
 .startCoversation:hover {
-  background-color: #665dfe;
   color: white;
   transition: 0.3s;
 }
